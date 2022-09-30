@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>120</y>
+      <w>300</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Car Class
+--
+- vin: String
+- mileage: double
+- invoicePrice: double
+--
++getVin():String
++setVin(value:String):void
++getMileage():double
++setMileage(value:double):void
++getInvoicePrice():double
++setInvoicePrice(value:double):void
++toString():String
+
+bg=WHITE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>260</x>
+      <y>390</y>
+      <w>280</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>UML Class Diagram by Andre Azevedo
+fg=BLUE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>20</y>
+      <w>520</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>com.lab2.cars
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
